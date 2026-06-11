@@ -1,0 +1,14 @@
+ultralytics
+torch
+torchvision
+torchmetrics
+transformers
+opencv-python
+numpy
+pandas
+matplotlib
+pyyaml
+pillow
+streamlit
+yt-dlp
+kaggle

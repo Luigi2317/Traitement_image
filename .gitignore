@@ -1,0 +1,23 @@
+# Identifiants (NE JAMAIS COMMIT)
+kaggle.json
+
+# Dataset (cloné depuis Kaggle/GitHub, ~14 Go - voir 01.Preparation_donnees.md)
+SH17dataset/
+
+# Vidéos volumineuses (résultats d'inférence/tracking)
+inference_video/
+video_tracking.mp4
+*.mp4
+
+# Modèles entraînés (hébergés sur le serveur distant - voir documentation)
+runs/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environnement
+.venv/
+venv/
