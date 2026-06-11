@@ -16,6 +16,7 @@ Projet/
 │   ├── 04.Evaluation.md
 │   └── 05.Inference.md
 ├── notebooks/             # Notebooks exécutés sur le serveur distant (GPU)
+│   ├── 0_pipeline_complet.ipynb        # Pipeline bout-à-bout (toutes les étapes)
 │   ├── 1_2_exploration.ipynb
 │   ├── 1_3_pretraitement.ipynb
 │   ├── 1_4_augmentation.ipynb
@@ -84,8 +85,11 @@ EPI et la partie du corps censée être protégée :
 1. Installer les dépendances : `pip install -r requirements.txt`
 2. Renseigner ses identifiants Kaggle (`kaggle.json`, non versionné) pour
    télécharger le dataset SH17 (voir `documentation/01.Preparation_donnees.md`).
-3. Exécuter les notebooks dans l'ordre : `1_2` → `1_3` → `1_4` → `2_1` → `2_2`
-   → `2_3` → `2_4` → `4` / `4_1` → `5_1` / `5_2` / `5_3`.
+3. Exécuter `notebooks/0_pipeline_complet.ipynb` pour parcourir l'intégralité
+   du pipeline (préparation des données, configuration du modèle, évaluation,
+   inférence + règles de conformité), ou les notebooks détaillés dans l'ordre :
+   `1_2` → `1_3` → `1_4` → `2_1` → `2_2` → `2_3` → `2_4` → `4` / `4_1` →
+   `5_1` / `5_2` / `5_3`.
 
 Les seeds sont fixées (`seed=42`) dans les notebooks `1_2`, `1_3` et `1_4`
 pour garantir la reproductibilité du split train/val/test.
