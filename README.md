@@ -57,8 +57,8 @@ Le déroulé complet du projet est documenté dans `documentation/` :
 
 YOLOv8m entraîné en résolution **1024×1024** (`yolov8m_epi_1024-2/weights/best.pt`,
 epoch 79) — voir `documentation/04.Evaluation.md` section 2.4 pour le détail des
-métriques (mAP50 = 0.697, mAP50-95 = 0.412, Précision = 0.798, Rappel = 0.616,
-F1 = 0.695).
+métriques (mAP50 = 0.697, mAP50-95 = 0.411, Précision = 0.801, Rappel = 0.618,
+F1 = 0.698).
 
 ## Règles de conformité EPI
 
