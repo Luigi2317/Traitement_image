@@ -22,8 +22,8 @@ Projet/
 │   ├── 1_4_augmentation.ipynb
 │   ├── 2_1_choix_modele.ipynb
 │   ├── 2_2_configuration.ipynb
-│   ├── 2_3_evaluation.ipynb
 │   ├── 2_4_entraitement_1024.ipynb
+│   ├── 3_evaluation.ipynb
 │   ├── 4_inference.ipynb
 │   ├── 4_1_inference_1024.ipynb
 │   ├── 5_1_comparaison_modeles.ipynb   # Axe A
@@ -88,7 +88,7 @@ EPI et la partie du corps censée être protégée :
 3. Exécuter `notebooks/0_pipeline_complet.ipynb` pour parcourir l'intégralité
    du pipeline (préparation des données, configuration du modèle, évaluation,
    inférence + règles de conformité), ou les notebooks détaillés dans l'ordre :
-   `1_2` → `1_3` → `1_4` → `2_1` → `2_2` → `2_3` → `2_4` → `4` / `4_1` →
+   `1_2` → `1_3` → `1_4` → `2_1` → `2_2` → `2_4` → `3` → `4` / `4_1` →
    `5_1` / `5_2` / `5_3`.
 
 Les seeds sont fixées (`seed=42`) dans les notebooks `1_2`, `1_3` et `1_4`
